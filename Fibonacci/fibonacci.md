@@ -13,15 +13,18 @@ Output Format
 Print the required answer for each test case.
 
 Sample Input 0
-
+```
 2
 10
 100
-Sample Output 0
+```
 
+Sample Output 0
+```
 10
 44
+```
 Explanation 0
 
-For , we have , sum is .
-For , we have , sum is .
+For N=10, we have {2,8}, sum is .
+For N=100, we have {2,8,34}, sum is 44.

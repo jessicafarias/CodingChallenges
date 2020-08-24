@@ -1,10 +1,7 @@
-def staircase(n)
-    n.times do |index|
-        a = "".rjust(n-index-1, ' ')
-        b = "#".rjust(index+1, '#') + "\n"
-        puts a+b 
-    end
+def staircase(num)
+  var = ''
+  num.times { |index| var += ''.rjust(num - index - 1, ' ') << '#'.rjust(index + 1, '#') + "\n" }
+  var
 end
 
 puts staircase(6)
-
