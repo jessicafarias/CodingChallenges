@@ -1,12 +1,11 @@
 def getMoneySpent(keyboards, drives, b)
-  guardado = -1
-  keyboards.cycle(1) do |x|
-    drives.each do |y|
-      sum = x + y
-      guardado = sum if sum > guardado && sum < b
+    to_buy = -1
+    keyboards.each do |x|
+        drives.each do |y|
+            if x + y <= b && x + y > to_buy
+                to_buy = x + y
+            end
+        end
     end
-  end
-  guardado
+    return to_buy
 end
-
-p getMoneySpent([4], [5], 5)

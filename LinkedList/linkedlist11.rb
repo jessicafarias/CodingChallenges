@@ -8,10 +8,8 @@ class Node
 end
 
 class LinkedList
-  # setup head and tail
 
   def add(number)
-    # your code here
     new_node = Node.new(number)
 
     if @head.nil?
