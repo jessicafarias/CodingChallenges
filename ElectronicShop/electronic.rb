@@ -9,7 +9,3 @@ def getMoneySpent(keyboards, drives, b)
     end
     return to_buy
 end
-
-def getMoneySpent(keyboards, drives, b)
-    keyboards.
-end
