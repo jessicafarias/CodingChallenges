@@ -1,3 +1,3 @@
 def birthdayCakeCandles(candles)
-    candles.count(candles.max)
+  candles.count(candles.max)
 end

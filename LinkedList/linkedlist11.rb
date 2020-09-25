@@ -8,7 +8,6 @@ class Node
 end
 
 class LinkedList
-
   def add(number)
     new_node = Node.new(number)
 
