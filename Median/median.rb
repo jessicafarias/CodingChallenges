@@ -1,5 +1,8 @@
-def findMedian(arr)
-    arr.sort[(arr.length/2)]
-end
+ar=[1,2,3,4,5,6]
+p ar
 
-p findMedian([1,2,3,4,5,6,7])
+def divisibleSumPairs(n, k, ar)
+
+
+end
+p divisibleSumPairs(n, 5, ar)
